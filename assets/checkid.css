@@ -1,0 +1,32 @@
+.wrapContent {
+  width: 80%;
+  margin: 0 auto;
+  padding: 40px 0px;
+  border: 3px solid;
+  text-align: center;
+  margin-top: 5%;
+  margin-bottom: 18%;
+}
+.wrapContent .titleCheckId {
+  font-size: 2.25rem;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+.wrapContent .wrapInputCheckId {
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+}
+.wrapContent .wrapInputCheckId .inPutCheckId {
+  display: flex;
+  align-items: center;
+}
+.wrapContent h5 {
+  padding-top: 70px;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+/*# sourceMappingURL=checkid.css.map */

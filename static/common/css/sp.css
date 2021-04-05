@@ -1,0 +1,448 @@
+@charset "utf-8";
+* {
+  margin: 0;
+  padding: 0;
+}
+section, article, aside, hgroup, header, footer, main, nav, figure {
+  display: block;
+}
+img {
+  display: block;
+  border: none;
+}
+p{
+
+}
+a {
+
+  text-decoration: none;
+}
+
+ul, ol {
+  list-style-type: none;
+}
+body {
+ font-family:"YuGothic", "Yu Gothic medium", "Hiragino Sans", "Meiryo", "sans-serif";
+  background-color: #fff;
+
+}
+/*以下spサイト W835px以下はこちらを適用する*/
+@media screen and (max-width: 766px) and (min-width: 0px) {
+	.sp{
+	display: block;
+}
+	.pc{
+		display: none;
+	}
+	header{
+		width: 100%;
+		
+	}
+	#h1_kowa_logo{
+		width: 100%;
+		
+	}
+main{
+		width: 100%;
+	}
+/*メイングラフィック*/
+.maingra{
+	width: 100%;
+	background-position: 40% 0;
+
+	
+	
+}
+.title_wrapper{
+	width:100%;
+
+}
+	.h2_maincopy{
+
+	margin-left:14%;
+
+}
+	.h2_productname{
+width:63%;
+	margin-left:32%;
+		text-align: right;
+		padding-right: 4%;
+
+	
+}
+	.h2_productname::after{
+
+	top:70px;
+	
+	
+}
+	.normal_price::after{
+
+	right:43%;
+}
+	.second_space{
+	width: 100%;
+	
+	
+}
+	.catch{
+	width: 96%;
+	margin:0 2%;
+}
+	.application_btn{
+		width: 100%;
+	}
+	.third_space{
+	width: 100%;
+	
+}
+	.reason{
+	width: 96%;
+		margin:0 2%;
+		box-sizing: border-box;
+	
+}
+	.reason_wrapper{
+	width:100%;
+		box-sizing: border-box;
+		
+}
+	.h3_title01::after{
+	display: block;
+	content: "";
+	width:120px;
+	height:4px; 
+	background-color:rgba(109,131,69,0.5);
+	position: absolute;
+	left:42.4%;
+	right:44%;
+	top:-10px;
+}
+	.method_04_text{
+		height: auto;
+	}
+	.fourth_space{
+	width: 100%;
+	
+	
+}
+	.benefit{
+		width: 96%;
+		margin:0 2%;
+	
+	
+}
+	.h3_title02::after{
+	display: block;
+	content: "";
+	width:120px;
+	height:4px; 
+	background-color:rgba(109,131,69,0.5);
+	position: absolute;
+	left:42.4%;
+	right:44%;
+	top:-10px;
+}
+	.benefit_wrapper{
+	display: flex;
+	flex-direction: column;
+		background-color: #fff;
+	
+	
+}
+	.benefit_photo1{
+
+	width: 100%;
+	height: 500px;
+
+		background-size: cover;
+	
+	
+}
+	.benefit_textarea01{
+	width: 100%;
+	padding-bottom:60px;
+		height: auto;
+	
+
+	
+}
+	.benefit_textarea01::before{
+display: none;
+	
+}
+	.benefit_textarea02{
+	width: 100%;
+		padding-bottom:60px;
+		height: auto;
+
+	
+}
+		.benefit_textarea02::before{
+display: none;
+	
+}
+	.free_wrapper{
+		width: 96%;
+		margin:50px 2% 0 2%;
+	}
+	.table_text{
+		width: 100%;
+	}
+.present_wrapper{
+	width: 63%;
+	margin:0 auto;
+	
+
+	
+	
+	
+}
+	.benefit_textarea02{
+		order:4;
+		width: 100%;
+	}
+	.benefit_photo2{
+		order:3;
+		width: 100%;
+	}
+	.fifth_space{
+	width: 100%;
+
+	
+}
+	.h3_title03::after{
+	display: block;
+	content: "";
+	width:120px;
+	height:4px; 
+	background-color:rgba(109,131,69,0.5);
+	position: absolute;
+	left:42.4%;
+	right:44%;
+	top:-10px;
+}
+	.method{
+	width: 92%;
+		margin:0 4%;
+	
+	
+}
+	.method_wrapper{
+	display: flex;
+	flex-direction: column;
+	
+}
+.method_01_title{
+	width:100%;
+	
+	
+	
+}
+	.method_01_text{
+	width:100%;
+
+	
+	
+}
+	.method_02_title{
+	width:100%;
+		margin-top:44px;
+
+	
+}
+	.method_02_text{
+	width:100%;
+
+	
+	
+}
+	.method_03_title{
+	width:100%;
+	
+	
+}
+	.method_03_text{
+width:100%;
+	
+	
+}
+	.method_04_title{
+width:100%;
+	
+	
+}
+	.method_04_text{
+	width:100%;
+	
+	
+}
+	.schedule_wrapper{
+	width:100%;
+
+}
+	.schedule_title_wrapper{
+	width:98%;	
+	display: flex;
+	flex-direction: row;
+		
+}
+	.sixmonths{
+	background-color: #B7B754;
+	width:195px;
+	height:244px;
+	border-bottom-right-radius: 100px;
+	font-family: "Lato";
+	font-weight: 700;
+	position: relative;
+	font-size:64px;
+	padding-left:8px;
+	padding-top:20px;
+}
+.sixmonths span{
+	font-size:11px;
+	font-weight: 500;
+	position: relative;
+	top:-12px;
+	margin-left:4px;
+	
+}
+	.schedule{
+	display: block;
+	left:-110px;
+	position: relative;
+	margin-top:200px;
+	font-family: "Lato";
+	font-weight: 700;
+	
+	
+}
+.schedule::before{
+	display: block;
+	content: "";
+	width: 1px;
+	height: 190px;
+	background-color: #121212;
+	transform: rotate(35deg);
+	position: absolute;
+	top:-160px;
+	left:30px;
+	
+}
+	.table02_text{
+		width:100%;
+		margin-left:-10%;
+		margin-top:42px;
+		text-align: justify;
+		
+	}
+	.schedule_table_wrapper{
+		width:96%;
+		
+		
+	}
+	.schedule_table_head{
+		width:100%;
+	}
+	.schedule_table_head_wrapper{
+		width:100%;
+		
+	}
+		.empty_table{
+	width:24.85%;
+}
+	.schedule_table_head_details{
+
+	width: 25%;
+
+	
+	
+}
+	.schedule_table_head_details:nth-of-type(3){
+			border-right: none;
+
+	
+
+	
+	
+}
+	.schedule_table_contents{
+		width:100%;
+		
+	}
+
+	.table_appearance{
+		width:100%;
+		
+	}
+	.table_appearance_left{
+		width: 24.85%;
+	}
+	.table_appearance_right{
+	width: 24.95%;
+}
+	.schedule_table_wrapper2{
+		width:96%;
+		margin-top:120px;
+		
+		
+	}
+	.table_appearance_right:nth-of-type(6n){
+		width: 24.95%;
+	}
+	.table_appearance_right:nth-of-type(3n){
+		border-right: none;
+	}
+	.contact_wrapper{
+	width:100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+		
+
+	
+}
+	.phone_contact_text{
+	font-size:27px;
+	text-align: center;
+	color: #fff;
+	width:396px;
+	border-radius: 0;
+	border:none;
+	padding:0;
+	font-weight: 700;
+		z-index: 10;
+	
+}
+	.phone_contact_link{
+			width:100%;
+	}
+	.phone_contact_link a{
+	display: block;
+cursor: pointer;
+		background: rgb(2,0,36);
+background: linear-gradient(45deg, rgba(2,0,36,1) 0%, rgba(79,20,2,1) 0%, rgba(157,39,4,1) 100%);
+		border-radius: 12px;
+		color: #fff;
+		text-align: center;
+		font-size:76px;
+	padding-top: 70px;
+		padding-bottom:20px;
+		margin-top:-56px;
+		margin-left:auto;
+		margin-right: auto;
+		
+
+}
+	.phone_contact_annotation{
+	color: #121212;
+	
+}
+	footer{
+		width:100%;
+		
+	}
+	.gotop_scrollin{
+		display: none;
+	}	
+}
